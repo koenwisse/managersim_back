@@ -1,10 +1,7 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "database_development",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "url": "postgres://loinlbtm:QFdy9iJNX2jWchyGbAsnjx8E1ANFLgaF@hattie.db.elephantsql.com/loinlbtm",
+    "dialect": "postgres"
   },
   "test": {
     "username": "root",
