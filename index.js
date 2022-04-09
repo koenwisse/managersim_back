@@ -1,6 +1,6 @@
 const express = require("express");
 
-const spacesRouter = require("./routers/spaces");
+const playersRouter = require("./routers/players");
 const { PORT } = require("./config/constants");
 
 // Create an express app
@@ -28,7 +28,7 @@ app.use(bodyParserMiddleWare);
  * Define your routes and attach our routers here (now that middlewares are configured)
  */
 
-app.use("/spaces", spacesRouter);
+app.use("/players", playersRouter);
 
 app.listen(PORT, () => {
   console.log(`Listening on port: ${PORT}`);
